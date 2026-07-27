@@ -12,27 +12,18 @@ The script features a universal awk-based date parser, making it fully compatibl
     MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
 ### Installation & Setup. 
-For macOS / Linux:
-1. Open the macOS Terminal App.
-2.  Create the script file:
+For macOS / Linux: Open the macOS Terminal App.
+For Windows:       Open Git Bash (or your preferred terminal environment).
+1.  Create the script file:
    
      Type terminal command:  `nano convert.sh`
-4.  Paste the complete script code into the window.
-5.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
-6.  Make the script executable:
+2.  Paste the complete script code into the window.
+3.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
+4.  Make the script executable:
   
 Type terminal command:  `chmod +x convert.sh`
     
-For Windows:
-1. Open Git Bash (or your preferred terminal environment).
-2. Create and open the file:
-   
-     Type terminal command:  `nano convert.sh`
 
-4. Paste the script code inside, save, and exit (Ctrl + O, Enter, Ctrl + X).
-5. Make the script executable:
- 
-Type terminal command:  `chmod +x convert.sh`
 
 ### How to Use. 
 The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.

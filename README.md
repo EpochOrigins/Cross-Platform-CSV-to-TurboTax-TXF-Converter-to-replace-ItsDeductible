@@ -44,9 +44,9 @@ Click here to download the sample donations spreadsheet in csv format.
  👉  [small-test.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
  
 Sample Output Generated (taxes.txf)
-The status logs display cleanly on your terminal screen without corrupting the output structure required by tax software:
+Click here to download a sample of the TurboTax Import file in .txf format. 
 
-[tax_import copy.txt](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
+ 👉  [tax_import copy.txt](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
 
 
 ### How to Import into TurboTax
@@ -54,3 +54,10 @@ The status logs display cleanly on your terminal screen without corrupting the o
 2. Go to the top menu bar and select File > Import > From Accounting Software (or From TXF File).
 3. Select your newly created taxes.txf file.
 4. Follow the prompts to review and approve your imported itemized deductions!
+
+### Tips.
+The spreadsheet used as input must be the same format with headers as the sample.  
+Make sure it's saved as a .csv NOT .xls  or .xlsx etc.
+TurboTax importing will only allow files with .txf file type.
+The .txf file has a rigid format and it must be plain text not formatted or saved as a .doc or .txt file type
+   

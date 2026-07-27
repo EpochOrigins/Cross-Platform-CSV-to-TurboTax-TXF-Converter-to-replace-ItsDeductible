@@ -31,16 +31,17 @@ For Windows:
 
 
 📖 How to Use
-The script accepts an optional command-line argument (y or n) to control how TurboTax processes your entries. Status tracking updates are sent to the console window (stderr), ensuring your generated data file remains clean.
+The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.
 
 Option A: Unique Entry Mode (Recommended)
-Pass y to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.
+Pass `y` to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.
  Terminal Command:  `./convert.sh y < donations.csv > taxes.txf`
 
-Option B: Summarized ModePass n if you prefer TurboTax to summarize multiple entries under the exact same charity name
+Option B: Summarized Mode
+Pass `n` if you prefer TurboTax to summarize multiple entries with the  same charity name.
  Terminal Command:  `./convert.sh n < donations.csv > taxes.txf`
 
-Note: If you do not pass any argument, the script defaults to Unique Entry Mode (y).
+Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
 
 📊 Data Examples
 Sample Input (donations.csv)

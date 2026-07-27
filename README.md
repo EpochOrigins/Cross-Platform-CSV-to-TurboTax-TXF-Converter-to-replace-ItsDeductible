@@ -28,8 +28,9 @@ For Windows:
 2. Create and open the file:
    
      Type terminal command:  `nano convert.sh`
-3. Paste the script code inside, save, and exit (Ctrl + O, Enter, Ctrl + X).
-4. Make the script executable:  
+<br>
+4. Paste the script code inside, save, and exit (Ctrl + O, Enter, Ctrl + X).
+5. Make the script executable:  
 Type terminal command:  ```chmod +x convert.sh```
 
 

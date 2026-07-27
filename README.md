@@ -4,14 +4,14 @@ This lightweight Bash script converts your charitable donation spreadsheets `.cs
 
 The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.
 
-###System Requirements. 
+### System Requirements. 
   macOS & Linux: Works natively right out of the box using Terminal.
   Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:
     Git Bash (Recommended – included automatically with Git for Windows)
     WSL (Windows Subsystem for Linux)
     MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
-###Installation & Setup. 
+### Installation & Setup. 
 For macOS / Linux:
 1. Open the macOS Terminal App.
 2.  Create the script file:
@@ -34,7 +34,7 @@ For Windows:
  
 Type terminal command:  `chmod +x convert.sh`
 
-###How to Use. 
+### How to Use. 
 The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.
 
 Option A: Unique Entry Mode (Recommended)
@@ -47,7 +47,7 @@ Type terminal command:  ```./convert.sh n < donations.csv > taxes.txf```
 
 Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
 
-###Data Examples. 
+### Data Examples. 
 Sample Input (donations.csv)
 Save your spreadsheet out as a plain text .csv file with headers matching this format:
 

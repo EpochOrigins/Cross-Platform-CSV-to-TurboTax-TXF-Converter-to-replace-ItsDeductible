@@ -44,11 +44,8 @@ Note: If you do not pass any argument, the script defaults to Unique Entry Mode 
 Sample Input (donations.csv)
 Save your spreadsheet out as a plain text .csv file with headers matching this format:
 
-  Charity Name,Address,Date,Donation Type,Notes,Description,Amount
-  Goodwill ,123 Main St,06/15/25,Item,n/a,Winter Coats,75.25
-  Red Cross,456 Oak Ave,12/31/25,Money,n/a,Disaster relief funds,50
-
-
+ [small-test.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
+ 
 Sample Output Generated (taxes.txf)
 The status logs display cleanly on your terminal screen without corrupting the output structure required by tax software:
 V042

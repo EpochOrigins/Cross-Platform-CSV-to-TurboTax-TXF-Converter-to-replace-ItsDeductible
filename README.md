@@ -50,14 +50,14 @@ Click here to download a sample of the TurboTax Import file in .txf format.
 
 
 ### How to Import into TurboTax
-1. Open your TurboTax Desktop software.
-2. Go to the top menu bar and select File > Import > From Accounting Software (or From TXF File).
-3. Select your newly created taxes.txf file.
-4. Follow the prompts to review and approve your imported itemized deductions!
+1. Open your TurboTax Desktop software.  
+2. Go to the top menu bar and select File > Import > From Accounting Software (or From TXF File).  
+3. Select your newly created taxes.txf file.  
+4. Follow the prompts to review and approve your imported itemized deductions!  
 
 ### Tips.
 The spreadsheet used as input must be the same format with headers as the sample.  
-Make sure it's saved as a .csv NOT .xls  or .xlsx etc.
-TurboTax importing will only allow files with .txf file type.
-The .txf file has a rigid format and it must be plain text not formatted or saved as a .doc or .txt file type
+Make sure it's saved as a .csv NOT .xls  or .xlsx etc.  
+TurboTax importing will only allow files with .txf file type.  
+The .txf file has a rigid format and it must be plain text not formatted or saved as a .doc or .txt file type. 
    

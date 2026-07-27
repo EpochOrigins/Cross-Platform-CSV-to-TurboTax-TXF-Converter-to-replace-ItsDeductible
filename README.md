@@ -39,13 +39,11 @@ The script accepts an optional command-line argument `y` or `n` to control how T
 
 Option A: Unique Entry Mode (Recommended)
 Pass `y` to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.
-   
-     Type terminal command:  `./convert.sh y < donations.csv > taxes.txf`
+   Type terminal command:  `./convert.sh y < donations.csv > taxes.txf`
 
 Option B: Summarized Mode
 Pass `n` if you prefer TurboTax to summarize multiple entries with the  same charity name.
-   
-     Type terminal command:  `./convert.sh n < donations.csv > taxes.txf`
+   Type terminal command:  `./convert.sh n < donations.csv > taxes.txf`
 
 Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
 

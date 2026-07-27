@@ -16,9 +16,10 @@ For macOS / Linux:  Open the macOS Terminal App.
 For Windows:  Open Git Bash (or your preferred terminal environment).
 1.  Create the script file:  
      Type terminal command:  `nano convert.sh`
-2.  Paste the complete script code into the window.
-3.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
-4.  Make the script executable:  
+    you can copy the script from here:  cvstotxf.sh
+3.  Paste the complete script code into the window.
+4.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
+5.  Make the script executable:  
      Type terminal command:  `chmod +x convert.sh`
     
 

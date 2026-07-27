@@ -1,6 +1,6 @@
 # Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible
 
-This lightweight Bash script converts your charitable donation spreadsheets (.csv) into a standard .txf (Tax Exchange Format) file. You can import this file directly into TurboTax Desktop (Mac or Windows) to completely skip typing out long lists of donations by hand. 
+This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then import this file directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax. 
 
 The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.
 
@@ -13,31 +13,32 @@ The script features a universal awk-based date parser, making it fully compatibl
     
 🚀 Installation & Setup
 For macOS / Linux:
-1. Open Terminal.
-2.  Create the script file: bash
-    nano convert.sh
+1. Open the macOS Terminal App.
+2.  Create the script file: 
+     Terminal Command:  `nano convert.sh`
 3.  Paste the complete script code into the window.
 4.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
 5.  Make the script executable: 
-    bash:  chmod +x convert.sh
+     Terminal Command:  `chmod +x convert.sh`
     
 For Windows:
 1. Open Git Bash (or your preferred terminal environment).
 2. Create and open the file:
-    bash:    nano convert.sh
+     Terminal Command:  `nano convert.sh`
 3. Paste the script code inside, save, and exit (Ctrl + O, Enter, Ctrl + X).
-4. Make the script executable:bash
-   chmod +x convert.sh
+4. Make the script executable:
+    Terminal Command:  `chmod +x convert.sh`
 
 
 📖 How to Use
 The script accepts an optional command-line argument (y or n) to control how TurboTax processes your entries. Status tracking updates are sent to the console window (stderr), ensuring your generated data file remains clean.
+
 Option A: Unique Entry Mode (Recommended)
 Pass y to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.
-  bash:  ./convert.sh y < donations.csv > taxes.txf
+ Terminal Command:  `./convert.sh y < donations.csv > taxes.txf`
 
 Option B: Summarized ModePass n if you prefer TurboTax to summarize multiple entries under the exact same charity name
-  bash:  ./convert.sh n < donations.csv > taxes.txf
+ Terminal Command:  `./convert.sh n < donations.csv > taxes.txf`
 
 Note: If you do not pass any argument, the script defaults to Unique Entry Mode (y).
 

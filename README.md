@@ -2,7 +2,7 @@
 
 This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then import this file directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax.  
 
-The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.
+The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.  
 
 ### System Requirements. 
   macOS & Linux: Works natively right out of the box using Terminal.
@@ -59,7 +59,7 @@ The status logs display cleanly on your terminal screen without corrupting the o
 [tax_import copy.txt](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
 
 
-📥 How to Import into TurboTax
+### How to Import into TurboTax
 1. Open your TurboTax Desktop software.
 2. Go to the top menu bar and select File > Import > From Accounting Software (or From TXF File).
 3. Select your newly created taxes.txf file.

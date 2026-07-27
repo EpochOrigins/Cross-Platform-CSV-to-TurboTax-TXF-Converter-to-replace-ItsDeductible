@@ -16,7 +16,7 @@ For macOS / Linux:  Open the macOS Terminal App.
 For Windows:  Open Git Bash (or your preferred terminal environment).
 1.  Create the script file:  
      Type terminal command:  `nano convert.sh`
-2.  [👉 Click here to open and copy the script](./cvstotxf.sh?raw=true)
+2.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
 3.  Paste the complete script code into the window.
 4.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
 5.  Make the script executable:  

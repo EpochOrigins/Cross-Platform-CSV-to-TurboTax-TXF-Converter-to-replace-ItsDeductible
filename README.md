@@ -1,6 +1,6 @@
 # Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible
 
-This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then import this file directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax. 
+This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then import this file directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax.  
 
 The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.
 

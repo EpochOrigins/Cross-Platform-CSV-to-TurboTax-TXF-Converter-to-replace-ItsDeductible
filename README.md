@@ -12,8 +12,8 @@ The script features a universal awk-based date parser, making it fully compatibl
     MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
 ### Installation & Setup. 
-<u>For macOS / Linux:</u>  Open the macOS Terminal App.  
-For Windows:       Open Git Bash (or your preferred terminal environment).
+For macOS / Linux:  Open the macOS Terminal App.  
+For Windows:  Open Git Bash (or your preferred terminal environment).
 1.  Create the script file:  
      Type terminal command:  `nano convert.sh`
 2.  Paste the complete script code into the window.

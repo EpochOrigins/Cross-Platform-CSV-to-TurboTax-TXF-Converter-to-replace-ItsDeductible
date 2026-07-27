@@ -20,7 +20,7 @@ For macOS / Linux:
 4.  Paste the complete script code into the window.
 5.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
 6.  Make the script executable: 
-   
+<br>
      Type terminal command:  `chmod +x convert.sh`
     
 For Windows:

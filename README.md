@@ -14,11 +14,12 @@ The script features a universal awk-based date parser, making it fully compatibl
 🚀 Installation & Setup
 For macOS / Linux:
 1. Open the macOS Terminal App.
-2.  Create the script file: 
+2.  Create the script file:
+   
      Terminal Command:  `nano convert.sh`
-3.  Paste the complete script code into the window.
-4.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
-5.  Make the script executable: 
+4.  Paste the complete script code into the window.
+5.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
+6.  Make the script executable: 
      Terminal Command:  `chmod +x convert.sh`
     
 For Windows:

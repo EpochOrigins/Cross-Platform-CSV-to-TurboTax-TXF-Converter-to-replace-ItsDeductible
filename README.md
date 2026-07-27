@@ -19,9 +19,8 @@ For macOS / Linux:
      Type terminal command:  `nano convert.sh`
 4.  Paste the complete script code into the window.
 5.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
-6.  Make the script executable: 
-<br>
-     Type terminal command:  `chmod +x convert.sh`
+6.  Make the script executable:     
+Type terminal command:  `chmod +x convert.sh`
     
 For Windows:
 1. Open Git Bash (or your preferred terminal environment).
@@ -30,8 +29,8 @@ For Windows:
      Type terminal command:  `nano convert.sh`
 <br>
 4. Paste the script code inside, save, and exit (Ctrl + O, Enter, Ctrl + X).
-5. Make the script executable:  
-Type terminal command:  ```chmod +x convert.sh```
+5. Make the script executable:      
+Type terminal command:  `chmod +x convert.sh`
 
 
 📖 How to Use

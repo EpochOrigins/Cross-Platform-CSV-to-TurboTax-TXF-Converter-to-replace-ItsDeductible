@@ -43,7 +43,7 @@ Click to download a sample donations spreadsheet in csv format.
  👉  [donations.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
  
 Sample Output Generated (taxes.txf). <br>
-Click here to download a sample of the TurboTax Import file in .txf format. 
+Click to download a sample of the TurboTax Import file in .txf format. 
  👉  [TT_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
 
 

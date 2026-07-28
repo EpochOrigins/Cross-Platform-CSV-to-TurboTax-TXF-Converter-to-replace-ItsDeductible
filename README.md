@@ -47,7 +47,7 @@ Click to download a sample of the TurboTax Import file in .txf format.
  👉  [TT_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt).   <br>
 <sub> Footnote: Tax Exchange Format (.txf) files are compatible with TurboTax and other financial software. This sample is saved as a text file (.txt) for readability only.</sub>
 
-### How to Import into TurboTax
+### ⌨️How to Import into TurboTax
 1. Open your TurboTax Desktop software.  
 2. Go to the top menu bar and select File > Import > From Accounting Software (or From TXF File).  
 3. Select your newly created `TT_import.txf` file.  

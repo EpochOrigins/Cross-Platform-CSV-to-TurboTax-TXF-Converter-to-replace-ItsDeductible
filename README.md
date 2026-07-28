@@ -4,14 +4,14 @@ This lightweight Bash script converts your charitable donation spreadsheets `.cs
 
 The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.  
 
-### System Requirements. 
+### 📎 System Requirements. 
   macOS & Linux: Works natively right out of the box using Terminal.
   Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:
     Git Bash (Recommended – included automatically with Git for Windows)
     WSL (Windows Subsystem for Linux)
     MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
-### ⚙️Installation & Setup. 
+### ⚙️ Installation & Setup. 
 For macOS / Linux:  Open the macOS Terminal App.  
 For Windows:  Open Git Bash (or your preferred terminal environment).
 1.  Create the script file:  
@@ -24,7 +24,7 @@ For Windows:  Open Git Bash (or your preferred terminal environment).
     
 
 
-### 🚀How to Use. 
+### 🚀 How to Use. 
 The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.
 
 Option A: Unique Entry Mode (Recommended)
@@ -37,7 +37,7 @@ Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```
 
 Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
 
-### Data Examples. 
+### 📁 Data Examples. 
 Sample Input. <br>
 Click to download a sample donations spreadsheet in csv format. 
  👉  [donations.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
@@ -53,14 +53,13 @@ Click to download a sample of the TurboTax Import file in .txf format.
 3. Select your newly created `TT_import.txf` file.  
 4. Follow the prompts to review and approve your newly imported tax deductions😃  
 
-### :star:Tips.
+### ⭐ Tips.
 The input spreadsheet must be the same format as the sample above with headers in the first row.  
 Be sure your spreadsheet is saved as a .csv file type, NOT .xls  or .xlsx.  
 TurboTax importing will only allow text files with the .txf file type.  
 The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).
 
 ### Misc Features of this script. 
-<small>
 •	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.    
 •	Flexible Date Parsing: Automatically handles date formats (e.g., January 15, 2025, Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
@@ -68,4 +67,3 @@ The .txf file has a rigid format, must be plain text (not formatted or saved as 
 	Code Contains "item" → N485 (Non-cash charity contributions). 
 	Code Contains "money" → N280 (Cash charity contributions). 
 •	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures all transaction amounts are properly formatted as negative deduction values. 
-<small>

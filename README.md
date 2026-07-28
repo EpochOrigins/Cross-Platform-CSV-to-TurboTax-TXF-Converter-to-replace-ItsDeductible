@@ -24,7 +24,7 @@ For Windows:  Open Git Bash (or your preferred terminal environment).
     
 
 
-### How to Use. 
+### 🚀How to Use. 
 The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.
 
 Option A: Unique Entry Mode (Recommended)
@@ -53,7 +53,7 @@ Click to download a sample of the TurboTax Import file in .txf format.
 3. Select your newly created `TT_import.txf` file.  
 4. Follow the prompts to review and approve your imported itemized deductions!  
 
-### Tips.
+### :star:Tips.
 The input spreadsheet must be the same format as the sample above with headers in the first row.  
 Be sure your spreadsheet is saved as a .csv file type, NOT .xls  or .xlsx.  
 TurboTax importing will only allow text files with the .txf file type.  

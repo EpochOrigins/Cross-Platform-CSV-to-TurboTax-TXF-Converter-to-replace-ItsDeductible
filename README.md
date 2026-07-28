@@ -41,7 +41,7 @@ Note: If you do not pass any argument, the script defaults to `y` Option A.  Bot
 Sample Input 
 Click here to download the sample donations spreadsheet in csv format. 
 
- 👉  [small-test.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
+ 👉  [donations.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
  
 Sample Output Generated (taxes.txf)
 Click here to download a sample of the TurboTax Import file in .txf format. 

@@ -57,7 +57,8 @@ Click to download a sample of the TurboTax Import file in .txf format.
 The input spreadsheet must be the same format as the sample above with headers in the first row.  
 Be sure your spreadsheet is saved as a .csv file type, NOT .xls  or .xlsx.  
 TurboTax importing will only allow text files with the .txf file type.  
-The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).
+The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
+☹️ TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
 
 ### Misc Features of this script. 
 •	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.    

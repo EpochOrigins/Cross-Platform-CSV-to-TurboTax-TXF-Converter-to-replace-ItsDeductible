@@ -46,7 +46,7 @@ Click here to download the sample donations spreadsheet in csv format.
 Sample Output Generated (taxes.txf)
 Click here to download a sample of the TurboTax Import file in .txf format. 
 
- 👉  [tax_import copy.txt](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
+ 👉  [tax_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
 
 
 ### How to Import into TurboTax

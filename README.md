@@ -11,7 +11,7 @@ The script features a universal awk-based date parser, making it fully compatibl
     WSL (Windows Subsystem for Linux)
     MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
-### Installation & Setup. 
+### ⚙️Installation & Setup. 
 For macOS / Linux:  Open the macOS Terminal App.  
 For Windows:  Open Git Bash (or your preferred terminal environment).
 1.  Create the script file:  

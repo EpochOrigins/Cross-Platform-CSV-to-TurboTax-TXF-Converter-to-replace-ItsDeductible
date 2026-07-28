@@ -56,8 +56,8 @@ Click here to download a sample of the TurboTax Import file in .txf format.
 4. Follow the prompts to review and approve your imported itemized deductions!  
 
 ### Tips.
-The spreadsheet used as input must be the same format with headers as the sample.  
-Make sure it's saved as a .csv NOT .xls  or .xlsx etc.  
-TurboTax importing will only allow files with .txf file type.  
-The .txf file has a rigid format and it must be plain text not formatted or saved as a .doc or .txt file type. 
+The input spreadsheet must be the same format as the sample above with headers in line 1.  
+Be sure your spreadsheet is saved as a .csv file type, NOT .xls  or .xlsx.  
+TurboTax importing will only allow text files with the .txf file type.  
+The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).
    

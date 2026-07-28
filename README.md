@@ -60,10 +60,12 @@ TurboTax importing will only allow text files with the .txf file type.
 The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).
 
 ### Misc Features of this script. 
-`•	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.`   
-`•	Flexible Date Parsing: Automatically handles date formats (e.g., January 15, 2025, Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.` 
-`•	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.`  
-`•	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:`  
-`	Code Contains "item" → N485 (Non-cash charity contributions)  
-`	Code Contains "money" → N280 (Cash charity contributions)`  
-`•	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures all transaction amounts are properly formatted as negative deduction values.`
+<small>
+•	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.    
+•	Flexible Date Parsing: Automatically handles date formats (e.g., January 15, 2025, Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
+•	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
+•	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:  
+	Code Contains "item" → N485 (Non-cash charity contributions). 
+	Code Contains "money" → N280 (Cash charity contributions). 
+•	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures all transaction amounts are properly formatted as negative deduction values. 
+<small>

@@ -39,13 +39,11 @@ Note: If you do not pass any argument, the script defaults to `y` Option A.  Bot
 
 ### Data Examples. 
 Sample Input. <br>
-Click here to download the sample donations spreadsheet in csv format. 
-
+Click to download a sample donations spreadsheet in csv format. 
  👉  [donations.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
  
-Sample Output Generated (taxes.txf). 
+Sample Output Generated (taxes.txf). <br>
 Click here to download a sample of the TurboTax Import file in .txf format. 
-
  👉  [TT_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
 
 

@@ -38,12 +38,12 @@ Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```
 Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
 
 ### Data Examples. 
-Sample Input 
+Sample Input. 
 Click here to download the sample donations spreadsheet in csv format. 
 
  👉  [donations.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
  
-Sample Output Generated (taxes.txf)
+Sample Output Generated (taxes.txf). 
 Click here to download a sample of the TurboTax Import file in .txf format. 
 
  👉  [TT_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)

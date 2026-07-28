@@ -29,11 +29,11 @@ The script accepts an optional command-line argument `y` or `n` to control how T
 
 Option A: Unique Entry Mode (Recommended)
 Pass `y` to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.  
-Type terminal command:  ```./convert.sh y < donations.csv > taxes.txf```
+Type terminal command:  ```./convert.sh y < donations.csv > TT_import.txf```
 
 Option B: Summarized Mode
 Pass `n` if you prefer TurboTax to summarize multiple entries with the  same charity name.  
-Type terminal command:  ```./convert.sh n < donations.csv > taxes.txf```
+Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```
 
 Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
 
@@ -46,13 +46,13 @@ Click here to download the sample donations spreadsheet in csv format.
 Sample Output Generated (taxes.txf)
 Click here to download a sample of the TurboTax Import file in .txf format. 
 
- 👉  [tax_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
+ 👉  [TT_import.txf](https://github.com/user-attachments/files/30428284/tax_import.copy.txt)
 
 
 ### How to Import into TurboTax
 1. Open your TurboTax Desktop software.  
 2. Go to the top menu bar and select File > Import > From Accounting Software (or From TXF File).  
-3. Select your newly created `taxes.txf` file.  
+3. Select your newly created `TT_import.txf` file.  
 4. Follow the prompts to review and approve your imported itemized deductions!  
 
 ### Tips.

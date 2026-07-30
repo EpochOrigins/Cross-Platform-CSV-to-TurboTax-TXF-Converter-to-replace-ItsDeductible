@@ -14,17 +14,18 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
     MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
 ### ⚙️ Installation & Setup. 
-For macOS / Linux:  Open the macOS Terminal App.  
-For Windows:  Open Git Bash (or your preferred terminal environment).
-1.  Navigate to a good file path and folder to run scripts:  
+1.  Open your terminal app:  
+        For macOS / Linux:  Open the macOS Utility App called Terminal.  
+        For Windows:  Open Git Bash (or your preferred terminal environment) <br>
+2.  Navigate to a good file path and folder to run scripts:  
      	In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
     	For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
-2. Create the script file:  
+3. Create the script file:  
      Type terminal command:  `nano convert.sh`
-3.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
-4.  Paste the complete script code into the window.
-5.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
-6.  Make the script executable:  
+4.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
+5.  Paste the complete script code into the window.
+6.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
+7.  Make the script executable:  
      Type terminal command:  `chmod +x convert.sh`
     
 

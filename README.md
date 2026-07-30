@@ -32,11 +32,12 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 ### 🚀 How to Use. 
 The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.
 
-Option A: Unique Entry Mode (Recommended)
+Option A: Every line becomes a unique Charity Name (Recommended)<br>
 Pass `y` to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.  
-Type terminal command:  ```./convert.sh y < donations.csv > TT_import.txf```
-
-Option B: Summarized Mode
+Type terminal command:  ```./convert.sh y < donations.csv > TT_import.txf```<br>
+Or type terminal command:  ```./convert.sh < donations.csv > TT_import.txf```<br>
+<br>
+Option B: Donations with the same Charity Name are Summarized<br>
 Pass `n` if you prefer TurboTax to summarize multiple entries with the  same charity name.  
 Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```
 

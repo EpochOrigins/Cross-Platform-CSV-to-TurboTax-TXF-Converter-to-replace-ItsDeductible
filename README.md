@@ -76,3 +76,6 @@ Only ITEM and MONEY donations can import into TurboTax Due to TXF Limits
 TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
 
 The TXF file format supported by TurboTax and other software is very, very old (35 years+, to be exact) and the data format used is very limited. Unfortunately, this means that only two types of donations can be imported into TurboTax: Items and Money. Mileage and Stock donations must be entered manually into TurboTax because the TXF file does not allow this data to transfer with them the donation record.
+
+### About the Author: 
+I put this script together and donated it to the community to give everyone a free alternative now that ItsDeductible is gone. I’m a retired IT tech and a longtime TurboTax user, dating all the way back to its 1993 MacInTax days. This workaround isn’t for everyone since it requires venturing into the command line, but it absolutely works. Use it at your own discretion and enjoy. Thanks!

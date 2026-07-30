@@ -6,8 +6,8 @@ As of 2026, TurboTax Importing of donations will be limited to only two types of
 
 ### 📎 System Requirements. 
 The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.<br>
-  macOS & Linux: Works natively right out of the box using Terminal<br>
-  Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:
+&nbsp;&nbsp;macOS & Linux: Works natively right out of the box using Terminal<br>
+&nbsp;&nbsp;Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Git Bash (Recommended – included automatically with Git for Windows)
 &nbsp;&nbsp;&nbsp;&nbsp;WSL (Windows Subsystem for Linux)
 &nbsp;&nbsp;&nbsp;&nbsp;MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
@@ -17,15 +17,15 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 &nbsp;&nbsp;&nbsp;&nbsp;For macOS / Linux:  Open the macOS Utility App called Terminal. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;For Windows:  Open Git Bash (or your preferred terminal environment) <br>
 2.  Navigate to a good file path and folder to run scripts: <br>
-> In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
-> For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
 3. Create the script file:  
-> Type terminal command:  `nano convert.sh`
+&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `nano convert.sh`
 4.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
 5.  Paste the complete script code into the window.
 6.  Press `Ctrl + O` then `Enter` to save, and `Ctrl + X` to exit.
 7.  Make the script executable:  
-> Type terminal command:  `chmod +x convert.sh` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `chmod +x convert.sh` <br>
 8.  Place your `donations.csv` file in the same directory
 
 

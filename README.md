@@ -40,7 +40,8 @@ Option B: Summarized Mode
 Pass `n` if you prefer TurboTax to summarize multiple entries with the  same charity name.  
 Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```
 
-Note: If you do not pass any argument, the script defaults to `y` Option A.  Both options will have the same result and import the same Total amount into TurboTax, but Option A leaves a few more "Additional Info" forms as "Keep for Your Records".
+Note: If you do not pass any argument, the script defaults to `y` Option A.<br>
+Both options will have the same result and import the same Total amount into TurboTax, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
 
 ### 📁 Data Examples. 
 Sample Input. <br>

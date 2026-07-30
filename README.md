@@ -66,13 +66,14 @@ TurboTax importing will only allow text files with the .txf file type.
 The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
 
 ### Notes, Features and Limitations of this script. 
-If your new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh script on macOS and Windows including folder locations and permissions for new getting started users?"<br>
+FEATURES<br>
+If you are new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh script on macOS and Windows including folder locations and permissions for new getting started users?"<br>
 •	The option to choose whether to keep charity names identical or append a unique ID to prevent TurboTax from merging donations.    
 •	Flexible Date Parsing: Automatically handles date formats (e.g., Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
-•	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:  
-	Code Contains "item" → N485 (Non-cash charity contributions). 
-	Code Contains "money" → N280 (Cash charity contributions). 
+•	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:<br>
+	Code Contains "item" → N485 (Non-cash charity contributions)<br>
+	Code Contains "money" → N280 (Cash charity contributions)<br>
 •	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures amounts are formatted as negative deduction values. 
 ☹️ LIMITATIONS<br>
 •	TurboTax importing will NOT allow Descriptions to load into tax worksheets like ItsDeductible did.<br>

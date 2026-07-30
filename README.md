@@ -9,14 +9,14 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 ### 📎 System Requirements. 
   macOS & Linux: Works natively right out of the box using Terminal.
   Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:
-> Git Bash (Recommended – included automatically with Git for Windows)
-> WSL (Windows Subsystem for Linux)
-> MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
+&nbsp;&nbsp;&nbsp;&nbsp;Git Bash (Recommended – included automatically with Git for Windows)
+&nbsp;&nbsp;&nbsp;&nbsp;WSL (Windows Subsystem for Linux)
+&nbsp;&nbsp;&nbsp;&nbsp;MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
 ### ⚙️ Installation & Setup. 
 1.  Open your terminal app:  
-> For macOS / Linux:  Open the macOS Utility App called Terminal. <br>
-> For Windows:  Open Git Bash (or your preferred terminal environment) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;For macOS / Linux:  Open the macOS Utility App called Terminal. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;For Windows:  Open Git Bash (or your preferred terminal environment) <br>
 2.  Navigate to a good file path and folder to run scripts: <br>
 > In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
 > For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>

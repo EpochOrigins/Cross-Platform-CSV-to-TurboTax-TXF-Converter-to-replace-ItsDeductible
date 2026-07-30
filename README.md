@@ -20,7 +20,7 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 &nbsp;&nbsp;&nbsp;&nbsp;In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
 3. Create the script file:  
-&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `nano [csvtotxf](https://github.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible).sh`
+&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `nano csvtotxf.sh`
 4.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
 5.  Paste the complete script code into the window.
 6.  Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X`).

@@ -9,24 +9,24 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 ### 📎 System Requirements. 
   macOS & Linux: Works natively right out of the box using Terminal.
   Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:
-    Git Bash (Recommended – included automatically with Git for Windows)
-    WSL (Windows Subsystem for Linux)
-    MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
+> Git Bash (Recommended – included automatically with Git for Windows)
+> WSL (Windows Subsystem for Linux)
+> MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
 ### ⚙️ Installation & Setup. 
 1.  Open your terminal app:  
-        For macOS / Linux:  Open the macOS Utility App called Terminal.  
-        For Windows:  Open Git Bash (or your preferred terminal environment) <br>
-2.  Navigate to a good file path and folder to run scripts:  
-     	In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
-    	For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
+> For macOS / Linux:  Open the macOS Utility App called Terminal. <br>
+> For Windows:  Open Git Bash (or your preferred terminal environment) <br>
+2.  Navigate to a good file path and folder to run scripts: <br>
+> In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
+> For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
 3. Create the script file:  
-     Type terminal command:  `nano convert.sh`
+> Type terminal command:  `nano convert.sh`
 4.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
 5.  Paste the complete script code into the window.
 6.  Press `Ctrl + O` then `Enter` to save, and `Ctrl + X` to exit.
 7.  Make the script executable:  
-     Type terminal command:  `chmod +x convert.sh` <br>
+> Type terminal command:  `chmod +x convert.sh` <br>
 8.  Place your `donations.csv` file in the same directory
 
 
@@ -67,15 +67,15 @@ The .txf file has a rigid format, must be plain text (not formatted or saved as 
 
 ### Notes, Features and Limitations of this script. 
 FEATURES<br>
-If you are new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh script on macOS and Windows including folder locations and permissions for new getting started users?"<br>
+•	If you are new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh scripts on macOS and Windows including folder locations and permissions for a new getting started user?"<br>
 •	The option to choose whether to keep charity names identical or append a unique ID to prevent TurboTax from merging donations.    
 •	Flexible Date Parsing: Automatically handles date formats (e.g., Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
 •	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:<br>
 	Code Contains "item" → N485 (Non-cash charity contributions)<br>
 	Code Contains "money" → N280 (Cash charity contributions)<br>
-•	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures amounts are formatted as negative deduction values. 
-☹️ LIMITATIONS<br>
+•	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures amounts are formatted as negative deduction values.<br>
+LIMITATIONS<br>
 •	TurboTax importing will NOT allow Descriptions to load into tax worksheets like ItsDeductible did.<br>
 •	The TXF file format supported by TurboTax and other software is very old (from the 1990s) and the data format used is very limited. Unfortunately, this means that only two types of donations can be imported into TurboTax: Items and/or Money. Mileage and Stock donations must be entered manually into TurboTax because the TXF file import does not allow this data.
 

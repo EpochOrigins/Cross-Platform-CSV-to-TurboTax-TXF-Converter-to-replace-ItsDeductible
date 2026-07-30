@@ -5,7 +5,7 @@ This lightweight Bash script converts your charitable donation spreadsheets `.cs
 As of 2026, TurboTax Importing of donations will be limited to only two types of donations: Items and Money. See Notes below for more information about reasons for this limitation. 
 
 ### 📎 System Requirements. 
-The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.<br>
+The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. This is not an App you install, its a shell script so it requires users to run a few commands in terminal mode.<br>
 * macOS & Linux: Works natively right out of the box using Terminal<br>
 * Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Git Bash (Recommended – included automatically with Git for Windows)<br>
@@ -26,7 +26,7 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 6.  Press `Ctrl + O` then `Enter` to save, and `Ctrl + X` to exit.
 7.  Make the script executable:  
 &nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `chmod +x convert.sh` <br>
-8.  Place your `donations.csv` file in the same directory
+8.  Build your donation spreadsheet, save it as a csv file such as `donations.csv` in this same directory
 
 
 ### 🚀 How to Use. 

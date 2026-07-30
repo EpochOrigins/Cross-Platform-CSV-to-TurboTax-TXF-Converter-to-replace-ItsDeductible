@@ -84,12 +84,10 @@ LIMITATIONS<br>
 I put this script together and donated it to the community to give everyone a free alternative now that ItsDeductible is gone. I’m a retired IT tech and a longtime TurboTax user, dating all the way back to its 1993 MacInTax days. This workaround isn’t for everyone since it requires venturing into the command line, but it absolutely works. Use it at your own discretion and enjoy. Thanks!<br>
 
 
-# DISCLAIMER / LIABILITY WAIVER
-`==============================================================================
-This script is provided "AS IS", without warranty of any kind, express or
+### DISCLAIMER / LIABILITY WAIVER
+`This script is provided "AS IS", without warranty of any kind, express or
 implied, including but not limited to the warranties of merchantability or
 fitness for a particular purpose. 
 Use this script entirely AT YOUR OWN RISK. The author assumes no liability 
 for data loss, incorrect tax calculations, file corruption, or system errors. 
-Always back up your financial data and tax files before running this script.
-==============================================================================`
+Always back up your financial data and tax files before running this script.`

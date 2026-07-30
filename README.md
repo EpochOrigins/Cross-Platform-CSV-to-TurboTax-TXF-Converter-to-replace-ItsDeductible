@@ -26,8 +26,8 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 5.  Paste the complete script code into the window.
 6.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
 7.  Make the script executable:  
-     Type terminal command:  `chmod +x convert.sh`
-    
+     Type terminal command:  `chmod +x convert.sh` <br>
+8.  Place your donations.csv file in the same directory
 
 
 ### 🚀 How to Use. 

@@ -66,20 +66,17 @@ TurboTax importing will only allow text files with the .txf file type.
 The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
 
 ### Notes, Features and Limitations of this script. 
-If your new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh script on macOS and Windows including folder locations and permissions for new getting started users?"
-•	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.    
-•	Flexible Date Parsing: Automatically handles date formats (e.g., January 15, 2025, Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
+If your new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh script on macOS and Windows including folder locations and permissions for new getting started users?"<br>
+•	The option to choose whether to keep charity names identical or append a unique ID to prevent TurboTax from merging donations.    
+•	Flexible Date Parsing: Automatically handles date formats (e.g., Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
 •	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:  
 	Code Contains "item" → N485 (Non-cash charity contributions). 
 	Code Contains "money" → N280 (Cash charity contributions). 
-•	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures all transaction amounts are properly formatted as negative deduction values. 
-☹️ LIMITATIONS
-TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
-Only ITEM and MONEY donations can import into TurboTax Due to TXF Limits
-TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
-
-The TXF file format supported by TurboTax and other software is very, very old (35 years+, to be exact) and the data format used is very limited. Unfortunately, this means that only two types of donations can be imported into TurboTax: Items and Money. Mileage and Stock donations must be entered manually into TurboTax because the TXF file does not allow this data to transfer with them the donation record.
+•	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures amounts are formatted as negative deduction values. 
+☹️ LIMITATIONS<br>
+•	TurboTax importing will NOT allow Descriptions to load into tax worksheets like ItsDeductible did.<br>
+•	The TXF file format supported by TurboTax and other software is very old (from the 1990s) and the data format used is very limited. Unfortunately, this means that only two types of donations can be imported into TurboTax: Items and/or Money. Mileage and Stock donations must be entered manually into TurboTax because the TXF file import does not allow this data.
 
 ### About the Author: 
 I put this script together and donated it to the community to give everyone a free alternative now that ItsDeductible is gone. I’m a retired IT tech and a longtime TurboTax user, dating all the way back to its 1993 MacInTax days. This workaround isn’t for everyone since it requires venturing into the command line, but it absolutely works. Use it at your own discretion and enjoy. Thanks!

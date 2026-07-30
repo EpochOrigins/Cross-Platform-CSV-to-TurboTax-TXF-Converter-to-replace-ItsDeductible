@@ -38,11 +38,11 @@ Type terminal command:  ```./convert.sh y < donations.csv > TT_import.txf```<br>
 Or type terminal command:  ```./convert.sh < donations.csv > TT_import.txf```<br>
 <br>
 Option B: Donations with the same Charity Name are Summarized<br>
-Pass `n` if you prefer TurboTax to summarize multiple entries with the  same charity name.  
-Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```
+Pass `n` if you prefer to let TurboTax summarize multiple entries with the  same charity name.  
+Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```<br>
 
-Note: If you do not pass any argument, the script defaults to `y` Option A.<br>
-Both options will have the same result and import the same Total amount into TurboTax, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
+Note:<br>
+All options have the same results in Total Deductions, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
 
 ### 📁 Data Examples. 
 Sample Input. <br>

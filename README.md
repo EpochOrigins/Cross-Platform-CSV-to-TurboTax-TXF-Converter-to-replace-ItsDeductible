@@ -16,9 +16,9 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 ### ⚙️ Installation & Setup. 
 For macOS / Linux:  Open the macOS Terminal App.  
 For Windows:  Open Git Bash (or your preferred terminal environment).
-1.  Navigate to a good folder to run scripts:  
-     	In Windows a clean file path to use is  C:\Scripts\your_script.sh <br>
-    	For Macs a clean file path is Home Directory, such as ~/Scripts (which expands to /Users/yourusername/Scripts)<br>
+1.  Navigate to a good file path and folder to run scripts:  
+     	In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
+    	For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
 2. Create the script file:  
      Type terminal command:  `nano convert.sh`
 3.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)

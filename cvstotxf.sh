@@ -1,6 +1,23 @@
 #!/bin/sh
-
-#- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -#
+# ==============================================================================
+# Script Name:  TurboTax ItsDeductible Workaround
+# Author:       Retired IT Professional (TurboTax user since 1993 / MacInTax)
+# Description:  Provides a free community solution to the loss of ItsDeductible
+#               by generating a compatible file for TurboTax import.
+# Platform:     macOS (Terminal) / Windows (Git Bash or WSL)
+# ==============================================================================
+# DISCLAIMER / LIABILITY WAIVER
+# This script is provided "AS IS", without warranty of any kind, express or
+# implied, including but not limited to the warranties of merchantability or
+# fitness for a particular purpose. 
+#
+# Use this script entirely AT YOUR OWN RISK. The author assumes no liability 
+# for data loss, incorrect tax calculations, file corruption, or system errors. 
+# Always back up your financial data and tax files before running this script.
+# ==============================================================================
+#
+#- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#
 # 1. Capture the first command-line argument into a descriptive variable
 RESPONSE="$1"
 

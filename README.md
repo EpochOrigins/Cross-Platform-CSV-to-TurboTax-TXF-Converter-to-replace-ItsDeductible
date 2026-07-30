@@ -6,10 +6,10 @@ As of 2026, TurboTax Importing of donations will be limited to only two types of
 
 ### 📎 System Requirements. 
 The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.<br>
-&nbsp;&nbsp;macOS & Linux: Works natively right out of the box using Terminal<br>
-&nbsp;&nbsp;Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Git Bash (Recommended – included automatically with Git for Windows)
-&nbsp;&nbsp;&nbsp;&nbsp;WSL (Windows Subsystem for Linux)
+* macOS & Linux: Works natively right out of the box using Terminal<br>
+*Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Git Bash (Recommended – included automatically with Git for Windows)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;WSL (Windows Subsystem for Linux)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;MSYS2 or Cygwin(Note: Standard Windows Command Prompt cmd.exe and PowerShell are not supported natively).
     
 ### ⚙️ Installation & Setup. 

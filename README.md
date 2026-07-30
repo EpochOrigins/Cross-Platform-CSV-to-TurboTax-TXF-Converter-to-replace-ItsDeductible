@@ -4,10 +4,9 @@ This lightweight Bash script converts your charitable donation spreadsheets `.cs
 
 As of 2026, TurboTax Importing of donations will be limited to only two types of donations: Items and Money. See Notes below for more information about reasons for this limitation. 
 
-The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.
-
 ### 📎 System Requirements. 
-  macOS & Linux: Works natively right out of the box using Terminal.
+The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.<br>
+  macOS & Linux: Works natively right out of the box using Terminal<br>
   Windows: Requires a lightweight Linux-like environment to run the script. You must run it using one of the following:
 &nbsp;&nbsp;&nbsp;&nbsp;Git Bash (Recommended – included automatically with Git for Windows)
 &nbsp;&nbsp;&nbsp;&nbsp;WSL (Windows Subsystem for Linux)

@@ -1,8 +1,10 @@
-## Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible
+## FREE-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible
 
-This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then import this file directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax.  
+This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then use IMPORT directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax.  
 
-The script features a universal awk-based date parser, making it fully compatible across macOS, Windows, and Linux systems without modifications.  
+As of 2026, TurboTax limitations with any Import means that only two types of donations can be imported: Items and Money. See Notes below for more information about this. 
+
+The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.
 
 ### 📎 System Requirements. 
   macOS & Linux: Works natively right out of the box using Terminal.
@@ -60,7 +62,7 @@ TurboTax importing will only allow text files with the .txf file type.
 The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
 ☹️ TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
 
-### Misc Features of this script. 
+### Notes, Features and Limitations of this script. 
 •	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.    
 •	Flexible Date Parsing: Automatically handles date formats (e.g., January 15, 2025, Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
@@ -68,3 +70,6 @@ The .txf file has a rigid format, must be plain text (not formatted or saved as 
 	Code Contains "item" → N485 (Non-cash charity contributions). 
 	Code Contains "money" → N280 (Cash charity contributions). 
 •	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures all transaction amounts are properly formatted as negative deduction values. 
+Only ITEM and MONEY donations can import into TurboTax Due to TXF Limits
+
+The TXF file format supported by TurboTax and other software is very, very old (35 years+, to be exact) and the data format used is very limited. Unfortunately, this means that only two types of donations can be imported into TurboTax: Items and Money. Mileage and Stock donations must be entered manually into TurboTax because the TXF file does not allow this data to transfer with them the donation record.

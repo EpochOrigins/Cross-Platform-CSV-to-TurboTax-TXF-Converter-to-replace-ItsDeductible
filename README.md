@@ -60,9 +60,9 @@ The input spreadsheet must be the same format as the sample above with headers i
 Be sure your spreadsheet is saved as a .csv file type, NOT .xls  or .xlsx.  
 TurboTax importing will only allow text files with the .txf file type.  
 The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
-☹️ TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
 
 ### Notes, Features and Limitations of this script. 
+If your new to running shell scripts on a Mac or Windows, get some basic help by asking AI "what are tips for running .sh script on macOS and Windows including folder locations and permissions for new getting started users?"
 •	Runtime option to choose whether to keep charity names identical or append a unique sequential ID (-001, -002) to  the Charity names preventing TurboTax from merging separate donations.    
 •	Flexible Date Parsing: Automatically handles date formats (e.g., January 15, 2025, Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
@@ -70,6 +70,9 @@ The .txf file has a rigid format, must be plain text (not formatted or saved as 
 	Code Contains "item" → N485 (Non-cash charity contributions). 
 	Code Contains "money" → N280 (Cash charity contributions). 
 •	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures all transaction amounts are properly formatted as negative deduction values. 
+☹️ LIMITATIONS
+TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
 Only ITEM and MONEY donations can import into TurboTax Due to TXF Limits
+TurboTax donation importing will NOT allow Donation Descriptions to load into forms like ItsDeductible. 
 
 The TXF file format supported by TurboTax and other software is very, very old (35 years+, to be exact) and the data format used is very limited. Unfortunately, this means that only two types of donations can be imported into TurboTax: Items and Money. Mileage and Stock donations must be entered manually into TurboTax because the TXF file does not allow this data to transfer with them the donation record.

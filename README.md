@@ -2,7 +2,7 @@
 
 This lightweight Bash script converts your charitable donation spreadsheets `.csv` into a standard `.txf` (Tax Exchange Format) file. You can then use IMPORT directly into TurboTax Desktop (Mac or Windows) to completely skip typing out donations by hand within TurboTax.  
 
-As of 2026, TurboTax limitations with any Import means that only two types of donations can be imported: Items and Money. See Notes below for more information about this. 
+As of 2026, TurboTax Importing of donations will be limited to only two types of donations: Items and Money. See Notes below for more information about reasons for this limitation. 
 
 The script is designed to be compatible across macOS, Windows, and Linux systems without modifications. Its not an App so it requires users to run a few commands in terminal mode.
 
@@ -16,12 +16,15 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 ### ⚙️ Installation & Setup. 
 For macOS / Linux:  Open the macOS Terminal App.  
 For Windows:  Open Git Bash (or your preferred terminal environment).
-1.  Create the script file:  
+1.  Navigate to a good folder to run scripts:  
+     	In Windows a clean file path to use is  C:\Scripts\your_script.sh. 
+    	For Macs a clean file path is Home Directory, such as ~/Scripts (which expands to /Users/yourusername/Scripts). 
+2. Create the script file:  
      Type terminal command:  `nano convert.sh`
-2.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
-3.  Paste the complete script code into the window.
-4.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
-5.  Make the script executable:  
+3.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
+4.  Paste the complete script code into the window.
+5.  Press Ctrl + O then Enter to save, and Ctrl + X to exit.
+6.  Make the script executable:  
      Type terminal command:  `chmod +x convert.sh`
     
 

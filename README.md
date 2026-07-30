@@ -20,29 +20,26 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 &nbsp;&nbsp;&nbsp;&nbsp;In Windows one possibility is:  `C:\Scripts\your_script.sh` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;For Macs a possibility is Home Directory: `~/Scripts (which expands to /Users/yourusername/Scripts/your_script.sh)`<br>
 3. Create the script file:  
-&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `nano convert.sh`
+&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `nano [csvtotxf](https://github.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible).sh`
 4.  [👉 Click here to open and copy the script](https://raw.githubusercontent.com/EpochOrigins/Cross-Platform-CSV-to-TurboTax-TXF-Converter-to-replace-ItsDeductible/refs/heads/main/cvstotxf.sh)
 5.  Paste the complete script code into the window.
-6.  Press `Ctrl + O` then `Enter` to save, and `Ctrl + X` to exit.
+6.  Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X`).
 7.  Make the script executable:  
-&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `chmod +x convert.sh` <br>
-8.  Build your donation spreadsheet, save it as a csv file such as `donations.csv` in this same directory
+&nbsp;&nbsp;&nbsp;&nbsp;Type terminal command:  `chmod +x csvtotxf.sh` <br>
+8.  Build your donation spreadsheet and place your `donations.csv` in the same directory.
 
 
 ### 🚀 How to Use. 
-The script accepts an optional command-line argument `y` or `n` to control how TurboTax will processes the records.
+The script accepts an optional `y` (detailed) or `n` (summarized) argument to control TurboTax processing.
 
-Option A: Every line becomes a unique Charity Name (Recommended)<br>
-Pass `y` to force TurboTax to keep every single item line separate on your "Keep for Your Records" forms instead of summarizing them.  
-Type terminal command:  ```./convert.sh y < donations.csv > TT_import.txf```<br>
-Or type terminal command:  ```./convert.sh < donations.csv > TT_import.txf```<br>
-<br>
-Option B: Donations with the same Charity Name are Summarized<br>
-Pass `n` if you prefer to let TurboTax summarize multiple entries with the  same charity name.  
-Type terminal command:  ```./convert.sh n < donations.csv > TT_import.txf```<br>
+*   **Option A: Unique Charity Names (Recommended)**
+    `./cvstotxf.sh y < donations.csv > TT_import.txf`
+*   **Option B: Summarized Charity Names**
+    `./cvstotxf.sh n < donations.csv > TT_import.txf`
 
-Note:<br>
-All options have the same results in Total Deductions, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
+Alternatively, running `./cvstotxf.sh < donations.csv > TT_import.txf` defaults to the standard behavior.
+
+All options have the same Total results, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
 
 ### 📁 Data Examples. 
 Sample Input. <br>

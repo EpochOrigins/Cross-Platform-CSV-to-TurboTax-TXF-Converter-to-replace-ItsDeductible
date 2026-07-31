@@ -71,8 +71,8 @@ FEATURES<br>
 •	Flexible Date Parsing: Automatically handles date formats (e.g., Jan 15, 2025, 31-Dec-25, 12/31/2025) found in spreadsheets.  
 •	Smart CSV Parsing: Safely handles commas wrapped inside quotation marks without breaking the layout columns.  
 •	Tax Code Mapping: Automatically detects and maps your donation type to standard IRS tax codes:<br>
-	Code Contains "item" → N485 (Non-cash charity contributions)<br>
-	Code Contains "money" → N280 (Cash charity contributions)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`Code Contains "item" → N485` (Non-cash charity contributions)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`Code Contains "money" → N280` (Cash charity contributions)<br>
 •	Auto-Formatting: Cleans up spaces, removes raw dollar signs, and ensures amounts are formatted as negative deduction values.<br>
 LIMITATIONS<br>
 •	TurboTax importing will NOT allow Descriptions to load into tax worksheets like ItsDeductible did.<br>

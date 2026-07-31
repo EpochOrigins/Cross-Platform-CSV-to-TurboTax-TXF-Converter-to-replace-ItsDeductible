@@ -37,7 +37,7 @@ The script accepts an optional `y` (detailed) or `n` (summarized) argument to co
 *   **Option B: Summarized Charity Names**
     `./cvstotxf.sh n < donations.csv > TT_import.txf`
 
-Alternatively, run with no argument: `./cvstotxf.sh < donations.csv > TT_import.txf` defaults to Option A.
+Option A is the default if no argument us used: `./cvstotxf.sh < donations.csv > TT_import.txf`
 
 All options have the same Total results, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
 

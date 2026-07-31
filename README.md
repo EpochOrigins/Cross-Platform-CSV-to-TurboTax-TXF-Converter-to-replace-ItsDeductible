@@ -43,18 +43,14 @@ All options have the same Total results, but the default Option A provides a few
 
 ### 📁 Data Examples. 
 Sample Input. <br>
-Click to download a sample donations spreadsheet in csv format. 
- 👉  [donations.csv](https://github.com/user-attachments/files/30428215/small-test.csv)
+Click to view or download a sample donations spreadsheet in csv format. 
+* 👉 <b><a href="donations.csv" download>Click here to download donations.csv</a></b>
  
 Sample Output Generated (taxes.txf). <br>
-Click to download a sample of the TurboTax Import file in .txf format. 
-
-* 👉 <b><a href="https://githubusercontent.com" download="donations.csv">Click here to download donations.csv</a></b>
-* 👉 <b><a href="https://githubusercontent.com" download="TT_import.txf">Click here to download TT_import.txf</a></b>
-* 👉 <b><a href="donations.csv" download>Click here to download donations.csv</a></b>
+Click to view or download a sample of the TurboTax Import file in .txf format. 
 * 👉 <b><a href="TT_import.txf" download>Click here to download TT_import.txf</a></b>
 
-<sub> Footnote: Tax Exchange Format (.txf) files are compatible with TurboTax and other financial software. This sample is saved as a text file (.txt) for readability only.</sub>
+<sub> Footnote: Tax Exchange Format (.txf) files are compatible with TurboTax and other financial software. 
 
 ### ⌨️ How to Import into TurboTax
 1. Open your TurboTax Desktop software.  

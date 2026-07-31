@@ -89,3 +89,5 @@ fitness for a particular purpose.
 Use this script entirely AT YOUR OWN RISK. The author assumes no liability 
 for data loss, incorrect tax calculations, file corruption, or system errors. 
 Always back up your financial data and tax files before running this script.`
+
+<small>7-31-26</small>

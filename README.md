@@ -32,7 +32,7 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 ### 🧩 A Breakdown on how to run the script.
 `./cvstotxf.sh y < donations.csv > TT_import.txf`
 *   `./cvstotxf.sh`  This runs our script created above. <br>
-*   The `./` just means "look for this program in the current folder.  <br>
+*   `./` just means "look for this program in the current folder, our /Scripts folder above.  <br>
 *   `y` This is an answer passed into the program. It automatically answers "yes" to a question the program asks while running (like confirming an action).  <br>
 *   `< donations.csv` This feeds your spreadsheet of donations into the program as the input.  <br>
 *   `> TT_import.txf` This places the result into a new file. The .txf extension is a format used by tax software like TurboTax.

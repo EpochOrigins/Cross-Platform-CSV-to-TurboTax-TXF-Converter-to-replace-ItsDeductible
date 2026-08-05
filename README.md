@@ -100,4 +100,4 @@ Use this script entirely AT YOUR OWN RISK. The author assumes no liability
 for data loss, incorrect tax calculations, file corruption, or system errors. 
 Always back up your financial data and tax files before running this script.`
 
-<small><sub>7-31-26</sub></small>
+<small><sub>8-5-26</sub></small>

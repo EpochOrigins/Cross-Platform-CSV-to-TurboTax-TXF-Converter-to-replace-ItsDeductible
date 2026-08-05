@@ -144,7 +144,12 @@ BEGIN { FS = q; OFS = q }
         gsub(/,/, "||COMMA||", $i)
     }
     print
-}' | while IFS=',' read -r csv_charity ignored_address csv_date csv_type ignored_irs csv_description csv_amount || [ -n "$csv_charity" ]; do
+    
+# OLD FIELD ORDER csv_charity ignored_address csv_date csv_type ignored_irs csv_description csv_amount
+#  }' | while IFS=',' read -r csv_charity ignored_address csv_date csv_type ignored_irs csv_description csv_amount || [ -n "$csv_charity" ]; do
+# NEW FIELD ORDER csv_charity csv_date csv_type ignored_irs csv_description csv_amount ignored_address
+
+}' | while IFS=',' read -r csv_charity csv_date csv_type ignored_irs csv_description csv_amount ignored_address || [ -n "$csv_charity" ]; do
     
 # Strip carriage returns (\r) and any leftover wrapping quotes (")
     csv_date=$(echo "$csv_date" | tr -d '\r' | tr -d '"')

@@ -30,14 +30,14 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 
 
 ### 🧩 A Breakdown on how to run the script.
-Using the same Terminal App from installation run this command: `./cvstotxf.sh y < donations.csv > TT_import.txf`
+Using the same Terminal App screen from installation, type this command: `./cvstotxf.sh y < donations.csv > TT_import.txf`
 *   `./cvstotxf.sh`  This runs our script created above. <br>
-*   `./` just means look for this program in the current folder, must be as /Scripts folder above.  <br>
+*   `./` just means look for this program in the current folder, i.e., the same folder used to install.  <br>
 *   `y` This control option is passed into the program. It answers "yes" to an option question described below.  <br>
-*   `< donations.csv` This feeds the `.csv` saved spreadsheet of donations into the program as the input.  <br>
-*   `> TT_import.txf` This places the result into a new file. The `.txf` extension is a format used by tax software like TurboTax.
+*   `< donations.csv` This feeds your `.csv` spreadsheet of donations into the program as the input.  <br>
+*   `> TT_import.txf` This places the results into a new file. The `.txf` extension is a format used by TurboTax.
 
-### 🚀 How to Use. 
+### Run Options.
 The script accepts an optional `y` (detailed) or `n` (summarized) argument to control TurboTax processing.
 
 *   **Option A: Unique Charity Names (Recommended)**

@@ -1,3 +1,4 @@
 Charity Name,Address,Date,Type,Note,Description,Amount
-Goodwill ,123 Main St,6/15/25,item,n/a,Winter Coats,75.25
-Red Cross,456 Oak Ave,12/31/25,money,n/a,Disaster relief funds,50
+charity,date,type,ignored,description,amount,notes-address
+Goodwill,6/15/25,item,Winter Coats,75.25,n/a
+Red Cross,12/31/25,money,Disaster relief funds,50,n/a

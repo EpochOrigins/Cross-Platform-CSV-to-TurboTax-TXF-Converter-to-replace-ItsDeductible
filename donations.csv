@@ -1,4 +1,3 @@
-Charity Name,Address,Date,Type,Note,Description,Amount
 charity,date,type,ignored,description,amount,notes-address
-Goodwill,6/15/25,item,Winter Coats,75.25,n/a
-Red Cross,12/31/25,money,Disaster relief funds,50,n/a
+Goodwill,6/15/25,item,,Winter Coats,75.25,123 Main St
+Red Cross,12/31/25,money,,Disaster relief funds,50,245 South Dr

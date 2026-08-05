@@ -29,6 +29,9 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 8.  Build your donation spreadsheet and place your `donations.csv` in the same directory.
 
 
+### 🧩 The Breakdown
+./cvstotxf.sh: This runs a specific mini-program (a script) designed to convert files. The ./ just means "look for this program in the current folder."y: This is an answer passed into the program. It automatically answers "yes" to a question the program asks while running (like confirming an action).< donations.csv: This feeds your spreadsheet of donations into the program as the input.> TT_import.txf: This takes the final result and saves it as a new file. The .txf extension is a standard format used by tax software like TurboTax.
+
 ### 🚀 How to Use. 
 The script accepts an optional `y` (detailed) or `n` (summarized) argument to control TurboTax processing.
 

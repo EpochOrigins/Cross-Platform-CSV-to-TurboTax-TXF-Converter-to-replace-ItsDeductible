@@ -38,7 +38,7 @@ Using the same Terminal App screen from installation, type this command: `./cvst
 *   `> TT_import.txf` This places the results into a new file. The `.txf` extension is a format used by TurboTax.
 
 ### Run Options.
-The script accepts an optional `y` (detailed) or `n` (summarized) argument to control TurboTax processing.
+The script accepts an optional `y` (detailed) or `n` (summarized) argument affecting TurboTax processing.
 
 *   **Option A: Unique Charity Names (Recommended)**
     `./cvstotxf.sh y < donations.csv > TT_import.txf`
@@ -47,7 +47,7 @@ The script accepts an optional `y` (detailed) or `n` (summarized) argument to co
 
 Option A is the default if no argument us used: `./cvstotxf.sh < donations.csv > TT_import.txf`
 
-All options have the same Total results, but the default Option A provides a few more TurboTax "Additional Info" and "Keep for Your Records" forms.
+All options have the same Total results, but the default Option A provides a few more "Additional Info" and "Keep for Your Records" forms.
 
 ### 📁 Data Examples. 
 Sample Input. <br>

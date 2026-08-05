@@ -30,7 +30,8 @@ The script is designed to be compatible across macOS, Windows, and Linux systems
 
 
 ### 🧩 A Breakdown on how to run the script.
-Using the same Terminal App screen from installation, type this command: `./cvstotxf.sh y < donations.csv > TT_import.txf`
+Using the same Terminal App screen from installation, type this command:  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;`./cvstotxf.sh y < donations.csv > TT_import.txf`
 *   `./cvstotxf.sh`  This runs our script created above. <br>
 *   `./` just means look for this program in the current folder, i.e., the same folder used to install.  <br>
 *   `y` This control option is passed into the program. It answers "yes" to an option question described below.  <br>
@@ -67,11 +68,11 @@ Click to view or download a sample of the TurboTax Import file in .txf format.
 4. Follow the prompts to review and approve your newly imported tax deductions😃  
 
 ### ⭐ Tips.
-The input spreadsheet must be the same column format as the sample with a header line in the first row.  
-Be sure your spreadsheet was saved as a `.csv` text file. Your original .xls or .xlsx spreadsheet will not work. 
-TurboTax importing will only allow a .txf file type.  
-The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
-If you are new to running shell scripts on your Mac or Windows desktop, get some basic help by asking AI;  <br>
+•	The input spreadsheet must be the same column format as the sample with a header line in the first row.  
+•	Be sure your spreadsheet was saved as a `.csv` text file. Your original .xls or .xlsx spreadsheet will not work. 
+•	TurboTax importing will only allow a .txf file type.  
+•	The .txf file has a rigid format, must be plain text (not formatted or saved as a .doc or .txt file type).  
+•	If you are new to running shell scripts on your Mac or Windows desktop, get some basic help by asking AI;  <br>
 "what are tips for running .sh scripts on macOS and Windows including folder locations and permissions for a new getting started user?"<br>
 
 ### Notes, Features and Limitations of this script. 
